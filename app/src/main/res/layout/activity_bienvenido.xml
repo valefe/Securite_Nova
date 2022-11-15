@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BienvenidoActivity"
+    android:background="@drawable/bg">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="460dp"
+        android:layout_marginEnd="60dp"
+        android:text="@string/registrarse"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="#4D9DB2BE"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textColor="#8BA3B1"
+        app:strokeColor="#8BA3B1"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="155dp"
+        android:text="@string/iniciar_ses"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        android:backgroundTint="#4D9DB2BE"
+        style="?attr/materialButtonOutlinedStyle"
+        android:textColor="#8BA3B1"
+        app:strokeColor="#8BA3B1"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
