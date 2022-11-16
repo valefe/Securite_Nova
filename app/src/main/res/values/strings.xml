@@ -12,4 +12,16 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="txt_iniciar_sesion">INICIAR SESIÓN</string>
+    <string name="ejemplo_mail_com">ejemplo@mail.com</string>
+    <string name="e_mail">E-mail</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="recordarme">Recordarme</string>
+    <string name="al_menos_8_caracteres">Al menos 8 caracteres</string>
+    <string name="no_tienes_una_cuenta">¿No tienes una cuenta?</string>
+    <string name="registrate">REGISTRATE</string>
+    <string name="olvid_la_contrase_a">¿Olvidó la contraseña?</string>
+    <string name="e_mail_registrado">E-mail Registrado</string>
+    <string name="recuperar_contrase_a">RECUPERAR CONTRASEÑA</string>
+    <string name="home">HOME</string>
 </resources>
