@@ -24,4 +24,5 @@
     <string name="e_mail_registrado">E-mail Registrado</string>
     <string name="recuperar_contrase_a">RECUPERAR CONTRASEÑA</string>
     <string name="home">HOME</string>
+    <string name="title_activity_maps">MapsActivity</string>
 </resources>
