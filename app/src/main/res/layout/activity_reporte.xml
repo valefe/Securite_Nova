@@ -11,7 +11,7 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginRight="30dp"
         android:layout_marginBottom="20dp"
@@ -62,11 +62,12 @@
                     android:backgroundTint="#4D9DB2BE"
                     android:gravity="start"
                     android:inputType="text"
+                    android:maxLength="2000"
                     android:singleLine="true"
                     android:textColor="@color/white"
                     android:textColorHint="#757575"
                     android:textColorLink="@color/azulito"
-                    android:maxLength="2000"/>
+                    tools:ignore="TouchTargetSizeCheck" />
 
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -75,10 +76,11 @@
                 android:id="@+id/listaop"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:minHeight="48dp"
-                android:text="Elije una categoría"
-                android:textColor="@color/white"
-                />
+                android:backgroundTint="#FFFFFF"
+                android:color="@color/purple_500"
+                android:contentDescription="@string/elije_una_categor_a"
+                android:focusable="auto"
+                android:minHeight="48dp" />
 
 
             <Button
@@ -123,7 +125,8 @@
                 android:focusable="false"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:inputType="text" />
             <EditText
                 android:id="@+id/tctLong"
                 android:layout_width="match_parent"
@@ -134,7 +137,8 @@
                 android:focusable="false"
                 android:layout_marginTop="10dp"
                 android:layout_marginRight="10dp"
-                android:layout_marginLeft="10dp"/>
+                android:layout_marginLeft="10dp"
+                android:inputType="text" />
 
 
         </LinearLayout>

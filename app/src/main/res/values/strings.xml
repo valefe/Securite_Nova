@@ -35,6 +35,7 @@
     <string name="reportarLISTO">REPORTAR</string>
     <string name="marcar_esta_ubicaci_n">MARCAR ESTA UBICACIÓN</string>
     <string name="agrega_una_breve_descrioci_n">Agrega una breve descripción</string>
+    <string name="elije_una_categor_a">Elije una categoría</string>
     <string-array name="lista">
         <item> Hurto a celular </item>
         <item> Poca iluminación </item>
