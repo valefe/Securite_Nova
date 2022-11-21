@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReporteActivity"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:fadingEdge="horizontal|vertical"
+        app:cardElevation="1dp"
+        app:cardCornerRadius="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/black">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#E34526"
+                android:text="@string/reportarTIT"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="15dp"
+                android:textSize="20sp">
+            </TextView>
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="start"
+                android:hint="@string/agrega_una_breve_descrioci_n"
+                android:textColorHint="#494949"
+                app:boxBackgroundColor="#FFEB3B"
+                app:counterTextColor="@color/azulito"
+                app:hintTextColor="#494949">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/descriopnrep"
+                    android:layout_width="319dp"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="#4D9DB2BE"
+                    android:gravity="start"
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:textColor="@color/white"
+                    android:textColorHint="#757575"
+                    android:textColorLink="@color/azulito"
+                    android:maxLength="2000"/>
+
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Spinner
+                android:id="@+id/listaop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="48dp"
+                android:text="Elije una categoría"
+                android:textColor="@color/white"
+                />
+
+
+            <Button
+                android:id="@+id/obteberubi"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#4D9DB2BE"
+                android:text="@string/marcar_esta_ubicaci_n"
+                android:textColor="#8BA3B1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:strokeColor="#8BA3B1" />
+
+            <Button
+                android:id="@+id/enviarrepo"
+                style="?attr/materialButtonOutlinedStyle"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:backgroundTint="#4D9DB2BE"
+                android:text="@string/reportarLISTO"
+                android:textColor="#8BA3B1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/button"
+                app:strokeColor="#8BA3B1" />
+
+            <EditText
+                android:id="@+id/tctLat"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:ems="10"
+                android:visibility="invisible"
+                android:textAlignment="center"
+                android:focusable="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+            <EditText
+                android:id="@+id/tctLong"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:ems="10"
+                android:visibility="invisible"
+                android:textAlignment="center"
+                android:focusable="false"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"/>
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</ScrollView>

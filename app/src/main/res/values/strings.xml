@@ -25,4 +25,25 @@
     <string name="recuperar_contrase_a">RECUPERAR CONTRASEÑA</string>
     <string name="home">HOME</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_intento">IntentoActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="reportar">REPORTAR</string>
+    <string name="reportar_txt">REPORTAR</string>
+    <string name="reportarTIT">REPORTAR</string>
+    <string name="reportarLISTO">REPORTAR</string>
+    <string name="marcar_esta_ubicaci_n">MARCAR ESTA UBICACIÓN</string>
+    <string name="agrega_una_breve_descrioci_n">Agrega una breve descripción</string>
+    <string-array name="lista">
+        <item> Hurto a celular </item>
+        <item> Poca iluminación </item>
+        <item> poca vigilancia </item>
+        <item> Accidente </item>
+        <item> Sospechosos </item>
+        <item> Actividad ilicita </item>
+        <item> Armas </item>
+        <item> Drogas </item>
+        <item> Otro </item>
+    </string-array>
 </resources>

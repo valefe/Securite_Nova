@@ -69,7 +69,7 @@ public class LoginActivity extends AppCompatActivity {
                                 Toast.makeText(getApplicationContext(), "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
                             }else{
                                 limpiar();
-                                Intent i = new Intent(LoginActivity.this, MapsActivity.class);
+                                Intent i = new Intent(LoginActivity.this, IntentoActivity.class);
                                 startActivity(i);
                             }
                             alerta.dismiss();
