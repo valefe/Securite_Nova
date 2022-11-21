@@ -71,7 +71,7 @@ public class ReporteActivity extends AppCompatActivity {
                 String descripcion = edtDescrip.getText().toString().trim();
 
                 if (TextUtils.isEmpty(latitud)){
-                    Toast.makeText(getApplicationContext(), "Por favor  generar ubicación", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Por favor  generar ubicación o verifíque que la ubicación de su teléfono esté encendida", Toast.LENGTH_SHORT).show();
                 }else if(TextUtils.isEmpty(longitud)){
                     Toast.makeText(getApplicationContext(), "Por favor  generar ubicación", Toast.LENGTH_SHORT).show();
                 }else if(TextUtils.isEmpty(descripcion)){
