@@ -26,6 +26,10 @@ public class BienvenidoActivity extends AppCompatActivity {
         Intent iniciar= new Intent(BienvenidoActivity.this, LoginActivity.class);
         startActivity(iniciar);
     }
+    public void Registro (View view){
+        Intent registrar= new Intent(BienvenidoActivity.this, SigninActivity.class);
+        startActivity(registrar);
+    }
 
 
 }

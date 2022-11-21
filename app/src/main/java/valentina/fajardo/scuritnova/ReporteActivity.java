@@ -1,6 +1,7 @@
 package valentina.fajardo.scuritnova;
 
 import androidx.annotation.NonNull;
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
@@ -44,6 +45,7 @@ public class ReporteActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reporte);
+        getSupportActionBar().setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
         getSupportActionBar().setCustomView(R.layout.txt_reporte);
         databaseReference = FirebaseDatabase.getInstance().getReference();
         consultarLatLong = (Button) findViewById(R.id.obteberubi);
@@ -71,9 +73,9 @@ public class ReporteActivity extends AppCompatActivity {
                 String descripcion = edtDescrip.getText().toString().trim();
 
                 if (TextUtils.isEmpty(latitud)){
-                    Toast.makeText(getApplicationContext(), "Por favor  generar ubicación o verifíque que la ubicación de su teléfono esté encendida", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Genere ubicación o verifíque que esté activa en su teléfono", Toast.LENGTH_SHORT).show();
                 }else if(TextUtils.isEmpty(longitud)){
-                    Toast.makeText(getApplicationContext(), "Por favor  generar ubicación", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Genere ubicación o verifíque que esté activa en su teléfono", Toast.LENGTH_SHORT).show();
                 }else if(TextUtils.isEmpty(descripcion)){
                     Toast.makeText(getApplicationContext(), "Por favor escribir una descripción", Toast.LENGTH_SHORT).show();
                 }else{

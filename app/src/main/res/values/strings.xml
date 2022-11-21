@@ -36,6 +36,13 @@
     <string name="marcar_esta_ubicaci_n">MARCAR ESTA UBICACIÓN</string>
     <string name="agrega_una_breve_descrioci_n">Agrega una breve descripción</string>
     <string name="elije_una_categor_a">Elije una categoría</string>
+    <string name="registrarme">REGISTRARME</string>
+    <string name="inicia_sesion">INICIA SESION</string>
+    <string name="nombre_completo">Nombre Completo</string>
+    <string name="nombres_y_apellidos">Nombres y apellidos</string>
+    <string name="acepto_terminos_y_condiciones">Acepto Terminos y Condiciones</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="image">image</string>
     <string-array name="lista">
         <item> Hurto a celular </item>
         <item> Poca iluminación </item>

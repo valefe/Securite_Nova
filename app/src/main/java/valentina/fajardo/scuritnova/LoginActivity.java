@@ -82,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void Registrate (View view){
-        Intent registrar= new Intent(LoginActivity.this, RegistroActivity.class);
+        Intent registrar= new Intent(LoginActivity.this, SigninActivity.class);
         startActivity(registrar);
     }
     public void Recuperar (View view){
